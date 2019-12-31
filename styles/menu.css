@@ -31,7 +31,9 @@ body {
 }
 
 .menu_burger {
-	font-size: 30px;
 	color: #fff;
-	padding: 20px;
+	margin: 20px;
+	background: url(../imgs/menu/icon-menu.svg) center/cover;
+	width: 25px;
+	height: 25px;
 }
