@@ -17,7 +17,7 @@ body {
 	box-shadow: #000 2px 0px 20px 0px;
 }
 
-#menu a {
+#menu div {
 	padding: 8px 8px 8px 32px;
 	text-decoration: none;
 	font-size: 25px;
@@ -26,7 +26,7 @@ body {
   	transition: 0.3s;
 }
 
-#menu a:hover {
+#menu div:hover {
 	color: #fff;
 }
 
