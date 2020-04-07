@@ -14,7 +14,7 @@
 
 	.box {
 		display: flex;
-		justify-content: space-around;
+		justify-content: center;
 		align-items: center;
 	}
 
@@ -28,6 +28,7 @@
 
 	.info {
 		width: 33vw;
+		margin: 5vw;
 		flex-wrap: wrap;
 	}
 
@@ -51,6 +52,12 @@
 		background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin-logo.svg/1024px-Kotlin-logo.svg.png") no-repeat center/cover;
 	}
 
+	.top_title {
+		font-size: 2vw;
+		width: 100%;
+		text-align: center;
+	}
+
 	.title {
 		font-size: 5vw;
 		width: 100%;
@@ -68,9 +75,9 @@
 <body>
 
 	<div class="box">
-		<h2 style="text-align: center">
+		<div class="top_title">
 			Языки и средства разработки клиентской части WEB - приложений
-		</h2>
+		</div>
 	</div>
 
 
@@ -92,9 +99,7 @@
 
 	<div class="box lang">
 		
-		<div class="icon css3"></div>
-
-		<div class="box info">
+		<div class="box info" style="text-align: right">
 			<div class="title" style="text-shadow: #039BE5 1px 1px 10px;">
 				CSS 3
 			</div>
@@ -103,6 +108,8 @@
 				Язык описания внешнего вида документа, написанного с использованием языка разметки
 			</div>
 		</div>
+
+		<div class="icon css3"></div>
 
 	</div>
 
@@ -124,9 +131,7 @@
 
 	<div class="box lang">
 
-		<div class="icon java"></div>
-
-		<div class="box info">
+		<div class="box info" style="text-align: right">
 			<div class="title" style="text-shadow: #E0720A 1px 1px 10px;">
 				Java
 			</div>
@@ -135,6 +140,8 @@
 				Строго типизированный объектно-ориентированный язык программирования
 			</div>
 		</div>
+
+		<div class="icon java"></div>
 
 	</div>
 	
