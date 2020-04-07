@@ -3,13 +3,156 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Alexander Kolmachikhin</title>
-	<link rel="stylesheet" type="text/css" href="styles/main.css">
-	<link rel="stylesheet" type="text/css" href="styles/menu.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style type="text/css">
+	
+	body {
+		background: #333;
+		color: #fefefe;
+		font-family: Ubuntu;
+	}
+
+	.box {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.icon {
+		height: 33vw;
+		width: 33vw;
+		display: block;
+		margin: 10px;
+		background: url("icon-menu.svg") no-repeat center/cover;
+	}
+
+	.info {
+		width: 33vw;
+		flex-wrap: wrap;
+	}
+
+	.html5 {
+		background: url("https://repository-images.githubusercontent.com/231435263/1beb3d80-2d95-11ea-8018-d4ddde52e033") no-repeat center/cover;
+	}
+
+	.css3 {
+		background: url("https://www.bryan-myers.com/images/16x9/css.png") no-repeat center/cover;
+	}
+
+	.java_script {
+		background: url("https://skillcenter.store/wp-content/uploads/2020/01/1200px-Unofficial_JavaScript_logo_2.svg_.png") no-repeat center/cover;
+	}
+
+	.java {
+		background: url("https://www.osp.ru/FileStorage/ARTICLE/Otkrytye_sistemy._SUBD/2013-02/01_13/13137861/Otkrytye_sistemy._SUBD_3_(7321).png") no-repeat center/cover;
+	}
+
+	.kotlin {
+		background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kotlin-logo.svg/1024px-Kotlin-logo.svg.png") no-repeat center/cover;
+	}
+
+	.title {
+		font-size: 5vw;
+		width: 100%;
+	}
+
+	.description {
+		font-size: 2vw;
+		width: 100%;
+		text-shadow: #000 1px 1px 2px;
+	}
+
+</style>
+
 </head>
 <body>
 
+	<div class="box">
+		<h2 style="text-align: center">
+			Языки и средства разработки клиентской части WEB - приложений
+		</h2>
+	</div>
+
+
+	<div class="box lang">
+
+		<div class="icon html5"></div>
+
+		<div class="box info" style="text-shadow: #ED5900 1px 1px 10px;">
+			<div class="title">
+				HTML 5
+			</div>
+
+			<div class="description">
+				Язык для структурирования и представления содержимого всемирной паутины
+			</div>
+		</div>
+
+	</div>
+
+	<div class="box lang">
+		
+		<div class="icon css3"></div>
+
+		<div class="box info">
+			<div class="title" style="text-shadow: #039BE5 1px 1px 10px;">
+				CSS 3
+			</div>
+
+			<div class="description">
+				Язык описания внешнего вида документа, написанного с использованием языка разметки
+			</div>
+		</div>
+
+	</div>
+
+	<div class="box lang">
+
+		<div class="icon java_script"></div>
+
+		<div class="box info">
+			<div class="title" style="text-shadow: #F7E018 1px 1px 10px;">
+				Java Script
+			</div>
+
+			<div class="description">
+				Мультипарадигменный язык программирования
+			</div>
+		</div>
+
+	</div>
+
+	<div class="box lang">
+
+		<div class="icon java"></div>
+
+		<div class="box info">
+			<div class="title" style="text-shadow: #E0720A 1px 1px 10px;">
+				Java
+			</div>
+
+			<div class="description">
+				Строго типизированный объектно-ориентированный язык программирования
+			</div>
+		</div>
+
+	</div>
 	
+	<div class="box lang">
+
+		<div class="icon kotlin"></div>
+
+		<div class="box info">
+			<div class="title" style="text-shadow: #816EE4 1px 1px 10px;">
+				Kotlin
+			</div>
+
+			<div class="description">
+				Статически типизированный язык программирования, работающий поверх Java Virtual Machine
+			</div>
+		</div>
+
+	</div>
 
 </body>
 </html>
