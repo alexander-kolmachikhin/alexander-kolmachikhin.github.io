@@ -1,9 +1,0 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "co.getfullstack.skill",
-    "sha256_cert_fingerprints":
-    ["FD:BE:51:E1:FE:AF:2A:E3:CF:35:F6:AA:C2:CE:C7:29:ED:E8:7E:3D:6B:EC:EF:BC:E5:D9:89:A6:EA:0D:AE:57"]
-  }
-}]
